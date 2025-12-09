@@ -12,7 +12,7 @@ PS1='[\u@\h \W]\$ '
 export PATH=$PATH:$HOME/.local/bin
 
 # Prompt customization
-eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/theme.omp.json)"
 
 # Alias for the bare git repo with dotfiles
 alias arroz='git --git-dir=$HOME/.arrocito --work-tree=$HOME'
